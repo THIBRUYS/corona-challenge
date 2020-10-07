@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.coronahome{
+    background-image: url(img/header-banner.jpg);
+    background-size: cover;
+    color: white;
+    height: 950px;
+    width: 100%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.coronahomebody {
+    vertical-align: middle;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-family: 'Poppins', sans-serif;
+    h1 {
+        font-size: 57px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    h2 {
+        font-size:25px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: 8px;
+    }
+    span {
+        letter-spacing: 3px;
+        font-size: 15px;
+    }
+    a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+        line-height: 50px ;
+    }
+}
+.navlogo {
+    background-image: url(img/coronavirus-logo.png);
+    background-size: cover;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: red;
+}
+.medicorona {
+    height: 100%;
+    width: 100%;
+}
+.homeimage {
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    float: right;
+}
+
